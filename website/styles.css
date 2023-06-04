@@ -83,7 +83,7 @@ body
 .text-box h1
 {
     font-size: 130px;
-    font-family: 'Bebas Neue', sans-serif;
+    font-family: 'Poppins', sans-serif;
     letter-spacing: 10px;
     
 }
@@ -91,6 +91,7 @@ body
 .text-box p
 {
     margin:10px 0px 40px;
+    font-family: 'Poppins', sans-serif;
     letter-spacing: 3px;
     font-size: 20px;
 }
