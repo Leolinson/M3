@@ -1,0 +1,139 @@
+body
+{
+    margin: 0;
+    padding: 0; 
+    background-color: black; 
+}
+
+
+.header 
+{
+    min-height: 10vh;
+    width: 100%;
+    position: relative;
+    
+}
+
+.header img
+{
+    width: 170px;
+}
+
+.header nav
+{
+    display: flex;
+    padding: 2% 7%;
+    justify-content:space-between;
+    align-items:center ;
+    
+    
+
+}
+
+.nav-links
+{
+    flex: 1;
+    text-align: right;
+}
+
+
+.nav-links ul li
+{
+    list-style: none;
+    display:inline-block;
+    padding: 2px 12px;
+    position: relative;
+
+}
+
+.nav-links ul li a
+{
+    color: aliceblue;
+    text-decoration: none;
+}
+
+.nav-links ul li  ::after
+{
+ content: '';
+ width: 0%;
+ height: 3px;
+ background: rgb(255, 254, 254);
+ display: block;
+ margin: auto;
+ transition: 0.5s;
+}
+
+.nav-links ul li  :hover::after
+{
+    width: 100%;
+}
+
+
+.text-box
+{
+    width: 90%;
+    color: #ffffff;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    text-align: center;
+}
+
+.text-box h1
+{
+    font-size: 130px;
+    font-family: 'Bebas Neue', sans-serif;
+    letter-spacing: 10px;
+    
+}
+
+.text-box p
+{
+    margin:10px 0px 40px;
+    letter-spacing: 3px;
+    font-size: 20px;
+}
+
+.text-box button
+{
+    padding: 1% 2%;
+    border-radius: 50px;
+    position: relative;
+    cursor: pointer;
+    border-color: black;
+}
+.text-box button a
+{
+  text-decoration: none;
+  color: black;
+  font-size: 25px;
+
+}
+
+.text-box button:hover
+{
+    border-color: rgb(255, 255, 255);
+    
+}
+
+nav .fa
+{
+    display: block;
+    color: gray;
+    margin: 10px;
+    font-size: 22px;
+    cursor: pointer;
+}
+@media(max-width:700px)
+{
+    .text-box h1
+    {
+        font-size: 50px;
+    }
+    .nav-links ul li
+    {
+    display:block;
+    font-size: 12px;
+    }
+}
