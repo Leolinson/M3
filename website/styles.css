@@ -2,7 +2,7 @@ body
 {
     margin: 0;
     padding: 0; 
-    background-color: black; 
+    background-image:linear-gradient(rgba(4,9,30,0.7),rgba(4,9,30,0.7)),url(pexels-david-peterson-4359071.jpg) ;
 }
 
 
@@ -19,6 +19,7 @@ body
     width: 170px;
 }
 
+
 .header nav
 {
     display: flex;
@@ -29,6 +30,7 @@ body
     
 
 }
+
 
 .nav-links
 {
@@ -46,11 +48,13 @@ body
 
 }
 
+
 .nav-links ul li a
 {
     color: aliceblue;
     text-decoration: none;
 }
+
 
 .nav-links ul li  ::after
 {
@@ -62,6 +66,7 @@ body
  margin: auto;
  transition: 0.5s;
 }
+
 
 .nav-links ul li  :hover::after
 {
@@ -80,6 +85,7 @@ body
     text-align: center;
 }
 
+
 .text-box h1
 {
     font-size: 130px;
@@ -87,6 +93,7 @@ body
     letter-spacing: 10px;
     
 }
+
 
 .text-box p
 {
@@ -96,6 +103,7 @@ body
     font-size: 20px;
 }
 
+
 .text-box button
 {
     padding: 1% 2%;
@@ -104,6 +112,8 @@ body
     cursor: pointer;
     border-color: black;
 }
+
+
 .text-box button a
 {
   text-decoration: none;
@@ -111,6 +121,7 @@ body
   font-size: 25px;
 
 }
+
 
 .text-box button:hover
 {
@@ -126,15 +137,88 @@ nav .fa
     font-size: 22px;
     cursor: pointer;
 }
+
+
 @media(max-width:700px)
 {
     .text-box h1
     {
         font-size: 50px;
+        padding-left: 30px;
     }
     .nav-links ul li
     {
     display:block;
     font-size: 12px;
     }
+    
+    .row
+    {
+        flex-direction: column;
+    }
+}
+
+
+.course
+{
+    width: 80%;
+    margin:auto;
+    text-align: center;
+    padding-top: 600px;
+    color: #f5f1f1;
+}
+
+
+.course h1
+{
+    color: #ffffff;
+    font-size: 36px;
+    font-weight: 600;
+}
+
+
+.course p
+{
+    color:#ffffff;
+    font-size: 14px;
+    font-weight: 300;
+    line-height: 10px;
+    padding-bottom: 20px;
+}
+
+
+.row
+{
+    margin: top 5%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.course-col
+{
+    flex-basis: 31%;
+    background-color:rgb(255, 254, 254);
+    border-radius: 15px;
+    margin-bottom: 5%;
+    padding: 20px 12px;
+    box-sizing: border-box;
+    transition: 0.5s;
+}
+
+.row p
+{
+    font-size: 18px;
+    color: black;
+    line-height: 20px;
+    
+}
+
+.row h3
+{
+    color: black;
+}
+
+.course-col:hover
+{
+    box-shadow: 0 0 50px 0px rgb(152, 152, 152);
 }
