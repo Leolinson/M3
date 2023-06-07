@@ -306,23 +306,23 @@ nav .fa
 
 .colwho h1
 {
-    padding-left: 140px;
-    font-size: 64px;
-    font-weight: 1000;
+    padding-left: 160px;
+    font-size: 48px;
+    font-weight: 600;
     text-align: left;
-    width: 50%;
+    width: 200px;
 }
 
 
 
 .colwho p
 {
+    padding-top: 20px;
     text-align: left;
     font-size: 24px;
     font-weight: 100;
-    padding-left: 200px;
+    padding-left: 100px;
     padding-right: 100px;
-    width: 100%;
 }
 
 .rowwhoweare
@@ -334,12 +334,32 @@ nav .fa
 
 .colwho
 {
-    flex-basis: 10% 40%;
     border-radius: 15px;
-    margin-bottom: 5%;
-    padding: 100px 60px;
+    margin-top: 5%;
     box-sizing: border-box;
-    transition: 0.5s;
+}
+
+.footer
+{
+    width:100%;
+    text-align: center;
+    padding-top: 300px;
+    color: #ffffff;
+}
+
+.footer h4
+{
+    margin-bottom: 25px;
+    margin-top: 20px;
+    font-weight: 600;
+}
+
+.footer icons fa
+{
+    color: #ffffff;
+    margin: 0 13px;
+    cursor: pointer;
+    padding: 18px 0;
 }
 
 
