@@ -376,9 +376,9 @@ nav .fa
     font-family: 'Poppins', sans-serif;
     width: 35%;
     padding-top: 5rem;
-    padding-left: 10rem;
-    margin-left: .5rem;
-    float: left;
+    padding-right: 10rem;
+    margin-right: .5rem;
+    float: right;
     font-size: 100px;
     font-weight: 900px;
    
@@ -390,8 +390,90 @@ nav .fa
     padding-left: 10rem;
     padding-right: 10rem;
     padding-top: 160px;
+    margin: 0rem;
+    font-size: 24px;
+    font-family: 'Poppins', sans-serif;
+}
+
+.bdytxt aside
+{
+    font-family: 'Poppins', sans-serif;
+    width: 35%;
+    padding-top: 5rem;
+    padding-left: 10rem;
+    margin-left: .5rem;
+    line-height: 95%;
+    padding-right: 0px;
+    padding-bottom: 0px;
+    float:left;
+    font-size: 100px;
+    font-weight: 900px;
+}
+
+.bdytxt1
+{
+    color: #ffffff;       
+}
+.bdytxt1 aside
+{
+    font-family: 'Poppins', sans-serif;
+    width: 35%;
+    padding-top: 5rem;
+    padding-right: 10rem;
+    margin-right: .5rem;
+    float: right;
+    padding-left: 50px;
+    line-height: 95%;
+    font-size: 100px;
+    font-weight: 900px;
+   
+}
+
+       
+.bdytxt1 p {
+    text-align:justify;
+    padding-left: 10rem;
+    padding-right: 10rem;
+    padding-top: 160px;
     margin: .1rem;
     font-size: 24px;
     font-family: 'Poppins', sans-serif;
+}
+
+.bdytxt1 aside
+{
+    font-family: 'Poppins', sans-serif;
+    width: 35%;
+    padding-top: 5rem;
+    padding-right: 10rem;
+    margin-right: .5rem;
+    float: right;
+    font-size: 100px;
+    font-weight: 900px;
+}
+
+
+.ourmission
+{
+display: inline;
+}
+
+.ourmission h1
+{
+    padding-top: 20px;
+    color: #ffffff;
+    text-align: center;
+    font-size: 120px;
+    font-family: 'Poppins', sans-serif;
+
+}
+
+.ourmission button
+{
+    width: 100px;
+    height:100px;
+    border-radius: 50px;
+   
+    
 }
 
