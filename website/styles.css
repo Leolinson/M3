@@ -1,10 +1,14 @@
 body
 {
+
     margin: 0;
     padding: 0; 
     background-image:linear-gradient(rgba(4,9,30,0.7),rgba(4,9,30,0.7)),url(bgimg.jpeg) ;
+    
      
 }
+
+
 
 ::-webkit-scrollbar {
     display: none;
@@ -307,6 +311,9 @@ nav .fa
     display:flex;
 
 }
+.cbse img{
+    width: 800px;
+}
 
 .colwho h1
 {
@@ -476,4 +483,70 @@ display: inline;
    
     
 }
+
+.wrapper
+{
+   
+    width: 450px;
+    padding: 2rem 1rem;
+    margin: 10px auto;
+    background-color: #ffffff;
+    border-radius: 10px;
+    box-shadow: 100px 200px 305px rgba(242, 238, 238, 0.1);
+
+}
+.wrapper p{
+    font-family: 'Poppins', sans-serif;
+    font-weight:bold;
+    text-align:center;
+}
+
+.wrapper h1
+{
+    text-align: center;
+    margin-bottom: 1.2rem;
+    color: #000000;
+}
+
+
+.wrapper form input
+{
+    width: 92%;
+    outline: none;
+    border: 1px solid #000000;
+    padding: 12px 10px;
+    margin-bottom: 20px;
+    border-radius: 20px;
+    background: #ffffff;
+
+}
+.wrapper form label
+{
+     text-align:left;
+     margin-left: 10px;
+     
+}
+
+
+.wrapper button
+{
+    margin-left: 70px;
+    font-size: 2rem;
+    font-weight: 1000px;
+    margin-top: 1.5rem;
+    border-radius: 50px;
+    outline: none;
+    border: none;
+    width: 300px;
+    height: 50px;
+    background-color: #1b026d;
+    color: #ececec;
+    cursor: pointer;
+
+}
+
+.wrapper button a{
+  font-weight: bolder;
+}
+
 
